@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: solid red 1px; */
 }
 
 .cabecalho {
@@ -64,12 +65,21 @@
 .produtos-texto-um{
     padding-inline-end: 70%; 
     font-family: 'le french' , cursive;
-    width: 50%; 
-    text-align: right;
+    display: flex;
+    width: 100%; 
+    font-size: 25px;
+}
+
+.produtos-texto-dois{
+    font-family:  'le french' , cursive;
+    font-size: 25px;
+    
 }
 
 
-
+.açai-imagem{
+    width: 310px;
+}
 
 
 
@@ -77,11 +87,10 @@
 .produtos{
     background-image: linear-gradient(#582766,#8c3fa1,#952bb4,#8e14bb);
     color: #ffffff;
-    display: list-item;
-    justify-content: baseline;
-    align-items: flex-end;
+    display: flex;
     padding: 50px 0;
+    width: 100%;
     
 
 }
-
+ 
