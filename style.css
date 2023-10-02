@@ -81,11 +81,38 @@
     width: 310px;
 }
 
+.açai-div{ 
+ text-align: center;
+}
+
+.açai-titulo{ 
+    text-align: center;
+    padding: 70px 0;
+}
+ .açai-todos{ 
+    display: grid; 
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    background-color: #0ca524;
+    display: flex;
+    padding: 50px 0;
+    width: 100%
+ }
+
+ .açai-titulo{ 
+    background-color: #582766;
+    color: #0ca524;
+    padding: 50px 0;
+    width: 100%;
+ }
+
+ .açai-nome{ 
+ color: #ffffff;
+ } 
 
 
 
 .produtos{
-    background-image: linear-gradient(#582766,#8c3fa1,#952bb4,#8e14bb);
+    background-image: linear-gradient(#8e14bb,#8c3fa1,#952bb4,#582766);
     color: #ffffff;
     display: flex;
     padding: 50px 0;
@@ -93,4 +120,20 @@
     
 
 }
- 
+
+.rodape{ 
+    background-color: #582766;
+    text-align: right;
+
+}
+
+.rodape-imagem{ 
+    height: 25px;
+    padding: 3px 0;
+}
+.rodape-titulo{ 
+    text-align: center;
+    font-family: 'fredoka one' , cursive;
+    color: #0ca524;
+    font-size: 20px;
+}
